@@ -1,5 +1,5 @@
 {
-  "name": "@waseem/components-lib",
+  "name": "@waseem-isaac/components-lib",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^9.1.12",
@@ -7,5 +7,10 @@
   },
   "dependencies": {
     "tslib": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Waseem-Isaac/github-package.git"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
