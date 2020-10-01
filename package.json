@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
+    "version-patch": "cd ./projects/components-lib && npm version patch",
+    "publish-lib": "cd ./dist/components-lib && npm pack && npm publish",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
